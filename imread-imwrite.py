@@ -1,4 +1,4 @@
-import cv2
+import cv2 # import open cv 
 img = cv2.imread('abc.jpg' , 1 )#''' read image and store in variabl img'''
 cv2.imshow('image', img)#''' showing image'''
 k = cv2.waitKey(5000)#''' wait for 5 sec '''
